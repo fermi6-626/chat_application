@@ -19,7 +19,7 @@ class ChatTests(ChannelsLiveServerTestCase):
 
     @classmethod
     def tearDownClass(cls):
-        cls.driver.quit
+        cls.driver.quit()
         super().tearDownClass()
 
     def seen_by_everyone(self):
@@ -27,7 +27,7 @@ class ChatTests(ChannelsLiveServerTestCase):
         try:
             self.enter_chatroom('room1')
             self.open_window()
-            self.enter_chatroom('room2')
+            self.enter_chatroom('room1')
             self.switch_window(0)
             self.post_msg('First Automation Test')
             WebDriverWait(self.driver, 2).until(lambda _ :
@@ -62,7 +62,7 @@ class ChatTests(ChannelsLiveServerTestCase):
         finally:
             self.close_windows()
     
-    def enter_chatrom(self, room_name):
+    def enter_chatroom(self, room_name):
         self.driver.get(self.live_server_url + '/chat_server/')
         ActionChains(self.driver).send_keys(room_name + '\n').perform()
         WebDriverWait(self.driver, 2).until(lambda _ : room_name not in self.driver.current_url)
@@ -78,7 +78,7 @@ class ChatTests(ChannelsLiveServerTestCase):
         if len(self.driver.window_handles) == 1:
             self.driver.switch_to_window(self.driver.window_handles[0])
             
-    def switch_windows(self, windex):
+    def switch_window(self, windex):
         self.driver.switch_to_window(self.driver.window_handles[windex])
         
     def post_msg(self, msg):
