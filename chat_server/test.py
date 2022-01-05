@@ -14,7 +14,7 @@ class ChatTests(ChannelsLiveServerTestCase):
         try:
             cls.driver = webdriver.Firefox()
         except:
-            super().tearDownClass
+            super().tearDownClass()
             raise
 
     @classmethod
@@ -78,3 +78,12 @@ class ChatTests(ChannelsLiveServerTestCase):
         if len(self.driver.window_handles) == 1:
             self.driver.switch_to_window(self.driver.window_handles[0])
             
+    def switch_windows(self, windex):
+        self.driver.switch_to_window(self.driver.window_handles[windex])
+        
+    def post_msg(self, msg):
+        ActionChains(self.driver).send_keys(msg + '\n').perform()
+        
+    @property
+    def chat_log(self):
+        return self.driver.find_element_by_css_selector('#chat-log').get_property('value')
