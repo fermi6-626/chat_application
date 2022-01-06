@@ -1,205 +1,82 @@
-1641441189666	geckodriver	INFO	Listening on 127.0.0.1:49861
-1641441189672	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileEupliK"
-1641441190812	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEupliK/search.json.mozlz4", (void 0)))
-1641441196416	Marionette	INFO	Listening on port 44105
-1641441197181	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641463036512	geckodriver	INFO	Listening on 127.0.0.1:53551
+1641463036521	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileSBvI7V"
+1641463037438	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileSBvI7V/search.json.mozlz4", (void 0)))
+1641463041700	Marionette	INFO	Listening on port 36751
+1641463042215	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641441205878	Marionette	INFO	Stopped listening on port 44105
+JavaScript error: chrome://remote/content/shared/webdriver/Errors.jsm, line 183: JavaScriptError: Document was unloaded
+1641463050029	Marionette	INFO	Stopped listening on port 36751
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1641441323123	geckodriver	INFO	Listening on 127.0.0.1:45025
-1641441323129	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileFqbVPa"
-1641441323948	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileFqbVPa/search.json.mozlz4", (void 0)))
-1641441327963	Marionette	INFO	Listening on port 33551
-1641441328282	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641463607677	geckodriver	INFO	Listening on 127.0.0.1:50853
+1641463607686	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilex0qUJS"
+1641463608499	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilex0qUJS/search.json.mozlz4", (void 0)))
+1641463612894	Marionette	INFO	Listening on port 34213
+1641463612931	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641441334754	Marionette	INFO	Stopped listening on port 33551
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
-1641441528441	geckodriver	INFO	Listening on 127.0.0.1:54901
-1641441528449	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileP1wEPq"
-1641441529194	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileP1wEPq/search.json.mozlz4", (void 0)))
-1641441534055	Marionette	INFO	Listening on port 36289
-1641441534089	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641441540903	Marionette	INFO	Stopped listening on port 36289
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-1641442009497	geckodriver	INFO	Listening on 127.0.0.1:38663
-1641442009503	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilezKqkMJ"
-1641442010315	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezKqkMJ/search.json.mozlz4", (void 0)))
-1641442014701	Marionette	INFO	Listening on port 33863
-1641442015033	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641442021643	Marionette	INFO	Stopped listening on port 33863
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+1641463613706	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+1641463620881	Marionette	INFO	Stopped listening on port 34213
 
 ###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-1641442654390	geckodriver	INFO	Listening on 127.0.0.1:43261
-1641442654397	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGOXnER"
-1641442655226	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGOXnER/search.json.mozlz4", (void 0)))
-1641442659437	Marionette	INFO	Listening on port 38379
-1641442659788	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641463842601	geckodriver	INFO	Listening on 127.0.0.1:40055
+1641463842607	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileN5esb3"
+1641463843498	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileN5esb3/search.json.mozlz4", (void 0)))
+1641463847773	Marionette	INFO	Listening on port 42893
+1641463848143	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641442666374	Marionette	INFO	Stopped listening on port 38379
+1641463852069	Marionette	INFO	Stopped listening on port 42893
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1641447895077	geckodriver	INFO	Listening on 127.0.0.1:38131
-1641447895087	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileAmDBrp"
-1641447895962	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileAmDBrp/search.json.mozlz4", (void 0)))
-1641447900109	Marionette	INFO	Listening on port 39827
-1641447900409	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-JavaScript error: http://localhost:39469/chat_server/room2/, line 43: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
-JavaScript error: http://localhost:45643/chat_server/room1/, line 43: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
-1641447914565	Marionette	INFO	Stopped listening on port 39827
-1641447929954	geckodriver	INFO	Listening on 127.0.0.1:46429
-1641447929960	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileGyTeYH"
-1641447930686	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileGyTeYH/search.json.mozlz4", (void 0)))
-1641447934814	Marionette	INFO	Listening on port 37539
-1641447935344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641447942494	Marionette	INFO	Stopped listening on port 37539
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1641448190072	geckodriver	INFO	Listening on 127.0.0.1:57667
-1641448190083	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileceGsfS"
-1641448191058	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileceGsfS/search.json.mozlz4", (void 0)))
-1641448195125	Marionette	INFO	Listening on port 38589
-1641448195645	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641448201764	Marionette	INFO	Stopped listening on port 38589
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-1641448896785	geckodriver	INFO	Listening on 127.0.0.1:37783
-1641448897785	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileNC9aR9"
-1641448898390	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileNC9aR9/search.json.mozlz4", (void 0)))
-1641448902370	Marionette	INFO	Listening on port 40637
-1641448902732	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-1641448910962	Marionette	INFO	Stopped listening on port 40637
-1641448947918	geckodriver	INFO	Listening on 127.0.0.1:53935
-1641448947926	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileXmZHQv"
-1641448948633	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileXmZHQv/search.json.mozlz4", (void 0)))
-1641448952642	Marionette	INFO	Listening on port 36663
-1641448953000	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641448960190	Marionette	INFO	Stopped listening on port 36663
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-1641449567691	geckodriver	INFO	Listening on 127.0.0.1:55627
-1641449567701	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileomqiQG"
-1641449568589	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileomqiQG/search.json.mozlz4", (void 0)))
-1641449572863	Marionette	INFO	Listening on port 45029
-1641449573383	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641449584070	Marionette	INFO	Stopped listening on port 45029
-1641449634569	geckodriver	INFO	Listening on 127.0.0.1:56041
-1641449634576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileQFINIB"
-1641449635294	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileQFINIB/search.json.mozlz4", (void 0)))
-1641449639815	Marionette	INFO	Listening on port 41535
-1641449640163	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641449650695	Marionette	INFO	Stopped listening on port 41535
-
-###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
-
-1641449943046	geckodriver	INFO	Listening on 127.0.0.1:56441
-1641449943052	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilelIRY9I"
-1641449943847	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilelIRY9I/search.json.mozlz4", (void 0)))
-1641449948471	Marionette	INFO	Listening on port 35953
-1641449949381	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641449960862	Marionette	INFO	Stopped listening on port 35953
-1641460558655	geckodriver	INFO	Listening on 127.0.0.1:48171
-1641460558662	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileEtqH43"
-1641460559532	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileEtqH43/search.json.mozlz4", (void 0)))
-1641460563655	Marionette	INFO	Listening on port 41787
-1641460563960	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641460570988	Marionette	INFO	Stopped listening on port 41787
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-1641461153506	geckodriver	INFO	Listening on 127.0.0.1:54777
-1641461153512	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofiletngzgX"
-1641461154335	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofiletngzgX/search.json.mozlz4", (void 0)))
-1641461158507	Marionette	INFO	Listening on port 42259
-1641461158705	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641461168773	Marionette	INFO	Stopped listening on port 42259
-JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
-console.error: "Could not load engine google@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
-console.error: "Could not load engine amazondotcom@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
-console.error: "Could not load engine wikipedia@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
-console.error: "Could not load engine bing@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
-console.error: "Could not load engine ddg@search.mozilla.org: [Exception... \"AddonManager is not initialized\"  nsresult: \"0xc1f30001 (NS_ERROR_NOT_INITIALIZED)\"  location: \"JS frame :: resource://gre/modules/AddonManager.jsm :: installBuiltinAddon :: line 2543\"  data: no]"
+console.error: "Could not load engine amazondotcom@search.mozilla.org: Error: Attempt to use XPI database when it is not initialized"
+console.error: "Could not load engine wikipedia@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.error: "Could not load engine bing@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
+console.error: "Could not load engine ddg@search.mozilla.org: TypeError: AddonManagerInternal._getProviderByName(...) is undefined"
 console.warn: SearchService: "_init: abandoning init due to shutting down"
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
-JavaScript error: , line 0: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 575: uncaught exception: 2147500036
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
 JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "DoHController: clear state and remove observers"
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
 JavaScript error: resource://gre/modules/CrashManager.jsm, line 828: AbortError: IOUtils: Shutting down and refusing additional I/O tasks
 RunWatchdog: Mainthread nested event loops during hang: 
  --- (no nested event loop active)
-ExceptionHandler::GenerateDump cloned child 1435584
+ExceptionHandler::GenerateDump cloned child ExceptionHandler::WaitForContinueSignal waiting for continue signal...
+1607331
 ExceptionHandler::SendContinueSignalToChild sent continue signal to child
-ExceptionHandler::WaitForContinueSignal waiting for continue signal...
-1641461485004	geckodriver	INFO	Listening on 127.0.0.1:47813
-1641461485012	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilete0Rj2"
-1641461485834	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilete0Rj2/search.json.mozlz4", (void 0)))
-1641461489828	Marionette	INFO	Listening on port 42463
-1641461490244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641464131191	geckodriver	INFO	Listening on 127.0.0.1:51971
+1641464131200	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofilezsA6Cb"
+1641464132032	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofilezsA6Cb/search.json.mozlz4", (void 0)))
+1641464136390	Marionette	INFO	Listening on port 44643
+1641464136818	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-JavaScript error: http://localhost:46711/chat_server/room1/, line 43: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
-JavaScript error: http://localhost:43445/chat_server/room1/, line 43: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
-1641461499199	Marionette	INFO	Stopped listening on port 42463
-1641461975362	geckodriver	INFO	Listening on 127.0.0.1:49201
-1641461975368	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-no-remote" "-profile" "/tmp/rust_mozprofileH5X1wV"
-1641461976095	Marionette	INFO	Marionette enabled
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /tmp/rust_mozprofileH5X1wV/search.json.mozlz4", (void 0)))
-1641461980268	Marionette	INFO	Listening on port 41315
-1641461980725	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-JavaScript error: resource://gre/actors/AutoCompleteChild.jsm, line 125: Error: Invalid autocomplete selectedIndex
-1641461988038	Marionette	INFO	Stopped listening on port 41315
+1641464144626	Marionette	INFO	Stopped listening on port 44643
 JavaScript error: resource://gre/modules/UrlClassifierListManager.jsm, line 691: TypeError: this.tablesData[table] is undefined
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

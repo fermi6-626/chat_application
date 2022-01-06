@@ -4,7 +4,7 @@ from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.support.wait import WebDriverWait
 
 
-class ChatTests(ChannelsLiveServerTestCase):
+class AutomatedTests(ChannelsLiveServerTestCase):
     serve_static = True
 
     @classmethod
@@ -69,7 +69,7 @@ class ChatTests(ChannelsLiveServerTestCase):
             lambda _: room_name not in self.driver.current_url)
 
     def open_window(self):
-        self.driver.execute_script("window.open('about:blank', '_blank');")
+        self.driver.execute_script("window.open('about:blank', 'blank');")
         self.driver.switch_to.window(self.driver.window_handles[-1])
 
     def close_windows(self):
