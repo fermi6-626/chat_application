@@ -69,7 +69,7 @@ class ChatTests(ChannelsLiveServerTestCase):
             lambda _: room_name not in self.driver.current_url)
 
     def open_window(self):
-        self.driver.execute_script("window.open('about:blank', '_blank';")
+        self.driver.execute_script("window.open('about:blank', '_blank');")
         self.driver.switch_to.window(self.driver.window_handles[-1])
 
     def close_windows(self):
