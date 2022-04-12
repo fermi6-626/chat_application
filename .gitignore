@@ -1,5 +1,5 @@
-chat_application/chat_application/__pycache__
-/chat_application/chat_server/__pycache__
+chat_application/__pycache__
+chat_server/__pycache__
 geckodriver.log
 db.sqlite3
 bin/
